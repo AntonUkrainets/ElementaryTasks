@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FileParser.Business.Operations.CountWords.CountWordsData" BaseTypeListCollapsed="true">
+    <Position X="2" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAA=</HashCode>
+      <FileName>Business\Operations\CountWords\CountWordsData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FileParser.Business.Operations.CountWords.CountWordsOperation" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAABAAgAAAAAAAACAgAAAAAAAAAAAAAAgAAAAAAAAAg=</HashCode>
+      <FileName>Business\Operations\CountWords\CountWordsOperation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="logger" />
+      <Field Name="fileManager" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FileParser.Business.Operations.ReplaceWord.ReplaceWordData" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAA=</HashCode>
+      <FileName>Business\Operations\ReplaceWord\ReplaceWordData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FileParser.Business.Operations.ReplaceWord.ReplaceWordOperation" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAgAAAAAAAAAAAAAAgAAAAAAAAAw=</HashCode>
+      <FileName>Business\Operations\ReplaceWord\ReplaceWordOperation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="logger" />
+      <Field Name="fileManager" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.1" />
+  </Class>
+  <Class Name="FileParser.Core.AppEnvironment">
+    <Position X="4.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAgAAAAAgACAAAAAAAAAAAAAAAAAAAACAAAAAI=</HashCode>
+      <FileName>Core\AppEnvironment.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="operations" />
+      <Field Name="inputDataParsers" />
+      <Field Name="logger" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FileParser.Parser.CountWordsParser" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parser\CountWordsParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FileParser.Parser.ReplaceWordParser" BaseTypeListCollapsed="true">
+    <Position X="7" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parser\ReplaceWordParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FileParser.Validation.Validator">
+    <Position X="7.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validation\Validator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileParser.Program">
+    <Position X="7.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="FileParser.Business.Interfaces.IOperation">
+    <Position X="7.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Business\Interfaces\IOperation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FileParser.Business.IOperationData">
+    <Position X="1.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business\Interfaces\IOperationData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FileParser.Parser.Interfaces.IParser">
+    <Position X="6" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parser\Interfaces\IParser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Liba.Logger.Interfaces.ILogger">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="FileParser.FilesManagers.Interfaces.IFileManager" Collapsed="true">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

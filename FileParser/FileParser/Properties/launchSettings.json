@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FileParser": {
+      "commandName": "Project",
+      "commandLineArgs": "File.txt Hey"
+    }
+  }
+}
